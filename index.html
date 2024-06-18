@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゲームアプリディベロッパーサイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ゲームアプリディベロッパー</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">ホーム</a></li>
+                    <li><a href="#games">ゲーム紹介</a></li>
+                    <li><a href="#download">ダウンロード</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>ようこそ！</h2>
+            <p>最高のゲーム体験を提供します。</p>
+        </div>
+    </section>
+
+    <section id="games" class="games">
+        <div class="container">
+            <h2>ゲーム紹介</h2>
+            <div class="game">
+                <h3>ゲームタイトル1</h3>
+                <p>ゲームの説明文がここに入ります。面白さや特徴をアピールしましょう。</p>
+            </div>
+            <div class="game">
+                <h3>ゲームタイトル2</h3>
+                <p>ゲームの説明文がここに入ります。面白さや特徴をアピールしましょう。</p>
+            </div>
+            <!-- 他のゲームも同様に追加 -->
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2>ダウンロード</h2>
+            <p>以下のリンクからゲームをダウンロードできます。</p>
+            <ul>
+                <li><a href="link_to_game1">ゲームタイトル1 ダウンロード</a></li>
+                <li><a href="link_to_game2">ゲームタイトル2 ダウンロード</a></li>
+                <!-- 他のゲームのダウンロードリンクも同様に追加 -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <form action="submit_contact_form.php" method="post">
+                <div>
+                    <label for="name">名前:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">メールアドレス:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">メッセージ:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">送信</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ゲームアプリディベロッパー</p>
+        </div>
+    </footer>
+</body>
+</html>
