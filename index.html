@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>すてくえのゲーム開発</h1>
-        <p>iOS向けゲームを開発する「すてくえ」の公式サイト</p>
+    <header class="site-header">
+        <div class="header-inner">
+            <h1>すてくえのゲーム開発</h1>
+            <p>iOS向けゲームを開発する「すてくえ」の公式サイト</p>
+        </div>
     </header>
     
-    <main>
+    <main class="container">
         <section class="games">
-            <div class="game">
-                <img src="images/ScoutRPG.png" alt="ゲーム1アイコン" class="game-icon">
-                <h2>スカウトRPG~モンスターを仲間に~</h2>
-                <p>最強パーティを目指そう！ターン制RPG
 
-キミだけの最強モンスターパーティで、冒険の世界へ旅立とう！
+            <!-- ▼ 新しいゲームを追加する際は、以下の <article class="game-card"> 〜 </article> をコピーしてここに追加してください ▼ -->
+
+            <article class="game-card">
+                <div class="game-header">
+                    <img src="images/ScoutRPG.png" alt="スカウトRPG アイコン" class="game-icon">
+                    <div class="game-title-area">
+                        <span class="game-genre">ターン制RPG</span>
+                        <h2>スカウトRPG~モンスターを仲間に~</h2>
+                    </div>
+                </div>
+                <p class="game-catch">最強パーティを目指そう！250種類以上のモンスターをスカウトして冒険へ！</p>
+                <details class="game-details">
+                    <summary>ゲームの詳細を見る</summary>
+                    <p class="game-description">キミだけの最強モンスターパーティで、冒険の世界へ旅立とう！
 
 250種類以上の個性豊かなモンスターたちが、キミとの出会いを待っている！
 お気に入りのモンスターをスカウトして、まだ誰も見たことのない、あなただけの最強パーティを作り上げよう！
@@ -47,14 +58,22 @@
 ステータス、特性、スキルの組み合わせで、可能性は無限大！ライバルをあっと言わせる、君だけの最強の布陣を見つけ出そう！
 
 さあ、最高の仲間たちと共に、新たな冒険の世界へ飛び込もう！</p>
-                <a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%88rpg-%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%92%E4%BB%B2%E9%96%93%E3%81%AB/id6753880644" class="download">App Storeでダウンロード</a>
-            </div>
-            <div class="game">
-                <img src="images/commandQuest.jpg" alt="ゲーム1アイコン" class="game-icon">
-                <h2>コマンドクエスト~レベル上げ×ハクスラRPG</h2>
-                <p>無限に強くなれ！自由な職業カスタマイズが魅力のターン制RPG
+                </details>
+                <a href="https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%88rpg-%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%92%E4%BB%B2%E9%96%93%E3%81%AB/id6753880644" class="download-btn" target="_blank" rel="noopener noreferrer">App Storeでダウンロード</a>
+            </article>
 
-あなたの理想の冒険者を作り上げ、果てなき戦いに挑め！
+            <article class="game-card">
+                <div class="game-header">
+                    <img src="images/commandQuest.jpg" alt="コマンドクエスト アイコン" class="game-icon">
+                    <div class="game-title-area">
+                        <span class="game-genre">レベル上げ×ハクスラRPG</span>
+                        <h2>コマンドクエスト~レベル上げ×ハクスラRPG</h2>
+                    </div>
+                </div>
+                <p class="game-catch">無限に強くなれ！自由な職業カスタマイズが魅力のターン制RPG</p>
+                <details class="game-details">
+                    <summary>ゲームの詳細を見る</summary>
+                    <p class="game-description">あなたの理想の冒険者を作り上げ、果てなき戦いに挑め！
 18種類の個性豊かな職業 から選択し、それぞれに備わる ユニークな特性 と 4つのスキル を駆使して戦おう。
 
 さらに、複合職業システム では、自分だけのオリジナル職業を作成可能！
@@ -69,12 +88,22 @@
 さらに、戦闘で得たドロップアイテムを使って、100種類以上の武器をクラフト可能！ 最強の装備を作り、戦場を駆け抜けろ！
 
 今すぐダウンロードして、自分だけの最強キャラクターで冒険の世界へ！</p>
-                <a href="https://apps.apple.com/jp/app/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E3%83%AC%E3%83%99%E3%83%AB%E4%B8%8A%E3%81%92-%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%A9rpg/id6742736872" class="download">App Storeでダウンロード</a>
-            </div>
-            <div class="game">
-                <img src="images/icon.png" alt="ゲーム1アイコン" class="game-icon">
-                <h2>ハクスラクエスト〜レベル上げ×レアドロップ</h2>
-                <p>「ハクスラクエスト」では、プレイヤーはステータス割り振りの自由度とレベル上限のない成長システムを駆使して、理想のキャラクターを作り上げ、強力なモンスターに挑むことができます！この2DコマンドバトルRPGでは、ハクスラ要素が満載で、モンスターを倒して手に入れたドロップアイテムを使い、80種類以上のユニークな武器を作成することが可能！
+                </details>
+                <a href="https://apps.apple.com/jp/app/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E3%83%AC%E3%83%99%E3%83%AB%E4%B8%8A%E3%81%92-%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%A9rpg/id6742736872" class="download-btn" target="_blank" rel="noopener noreferrer">App Storeでダウンロード</a>
+            </article>
+
+            <article class="game-card">
+                <div class="game-header">
+                    <img src="images/icon.png" alt="ハクスラクエスト アイコン" class="game-icon">
+                    <div class="game-title-area">
+                        <span class="game-genre">2DコマンドバトルRPG</span>
+                        <h2>ハクスラクエスト〜レベル上げ×レアドロップ</h2>
+                    </div>
+                </div>
+                <p class="game-catch">レベル上限なし！自由なステータス割り振りと80種以上の武器クラフト</p>
+                <details class="game-details">
+                    <summary>ゲームの詳細を見る</summary>
+                    <p class="game-description">「ハクスラクエスト」では、プレイヤーはステータス割り振りの自由度とレベル上限のない成長システムを駆使して、理想のキャラクターを作り上げ、強力なモンスターに挑むことができます！この2DコマンドバトルRPGでは、ハクスラ要素が満載で、モンスターを倒して手に入れたドロップアイテムを使い、80種類以上のユニークな武器を作成することが可能！
 新しく追加されたランダムオプション武器は、どんなステータスになるかは運次第！武器のステータスをガチャ感覚で楽しめる！
 
 装備の組み合わせやステータスのバランスを試行錯誤しながら、自分だけの戦術を編み出すことがこのゲームの魅力です。プレイヤーの選択と戦略がバトルを左右し、最強の装備とステータスを求めてさらなる冒険へと駆り立てられるでしょう。
@@ -87,13 +116,22 @@
 ・奥深い2Dコマンドバトルで緻密な戦術を楽しもう！
 
 「ハクスラクエスト」で、終わりのない成長と戦略性に満ちた冒険を楽しんでください！</p>
-                <a href="https://apps.apple.com/jp/app/%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E3%83%AC%E3%83%99%E3%83%AB%E4%B8%8A%E3%81%92-%E3%83%AC%E3%82%A2%E3%83%89%E3%83%AD%E3%83%83%E3%83%97/id6686402720" class="download">App Storeでダウンロード</a>
-            </div>
-            <div class="game">
-                <img src="images/ICON.png" alt="ゲーム1アイコン" class="game-icon">
-                <h2>セットクエスト~運と戦略のハクスラ×ローグライク</h2>
-                <p>運と戦略が交差する、新たな冒険がここに！
-「セットクエスト」は、ハクスラとローグライクの魅力を融合し、独自のバトルシステムで新たな体験を提供するゲームです。運命を左右するランダム性と、自分だけのデッキ構築がもたらす無限の戦略性があなたを何度でも引き込む！
+                </details>
+                <a href="https://apps.apple.com/jp/app/%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E3%83%AC%E3%83%99%E3%83%AB%E4%B8%8A%E3%81%92-%E3%83%AC%E3%82%A2%E3%83%89%E3%83%AD%E3%83%83%E3%83%97/id6686402720" class="download-btn" target="_blank" rel="noopener noreferrer">App Storeでダウンロード</a>
+            </article>
+
+            <article class="game-card">
+                <div class="game-header">
+                    <img src="images/ICON.png" alt="セットクエスト アイコン" class="game-icon">
+                    <div class="game-title-area">
+                        <span class="game-genre">ハクスラ×ローグライク</span>
+                        <h2>セットクエスト~運と戦略のハクスラ×ローグライク</h2>
+                    </div>
+                </div>
+                <p class="game-catch">運と戦略が交差する！独自のカード配置バトルで挑む新たな冒険</p>
+                <details class="game-details">
+                    <summary>ゲームの詳細を見る</summary>
+                    <p class="game-description">「セットクエスト」は、ハクスラとローグライクの魅力を融合し、独自のバトルシステムで新たな体験を提供するゲームです。運命を左右するランダム性と、自分だけのデッキ構築がもたらす無限の戦略性があなたを何度でも引き込む！
 
 ゲームの特徴-独特なバトルシステムで頭脳と直感が試される
 ~バトルシステム~
@@ -102,13 +140,11 @@
 カードの種類と配置を駆使して、敵を制圧しよう！
 
 ハクスラの醍醐味：成長と強化の楽しさ
-
 敵を倒して得たゴールドでカードを強化。強くなる実感がプレイのモチベーションを高めます。
 敵のドロップやレベルアップでスキルポイントを獲得し、スキルのインターバル削減！
 ゲームを進めるたびに成長が感じられる、やり込み要素満載のハクスラ体験。
 
 毎回異なる挑戦が待つローグライク要素
-
 ランダム生成される障害物やランダムに発生する敵の必殺技がプレイごとに新たな体験を提供！
 勝利を掴むたびに次の挑戦が楽しみになる、クセになるリプレイ性！
 遊び方はあなた次第！
@@ -117,27 +153,36 @@
 ハクスラの成長、ローグライクのランダム性、そして独特なバトルシステム---すべてが融合した未体験のゲームプレイを楽しんでください。
 
 さあ、『セットクエスト』の世界であなたの運命を試す冒険に出発しましょう！</p>
-                <a href="https://apps.apple.com/jp/app/%E3%82%BB%E3%83%83%E3%83%88%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E9%81%8B%E3%81%A8%E6%88%A6%E7%95%A5%E3%81%AE%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%A9-%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AF/id6738885563" class="download">App Storeでダウンロード</a>
-            </div>
-            <div class="game">
-                <img src="images/BallVSIcon.png" alt="ゲーム1アイコン" class="game-icon">
-                <h2>ブロバト</h2>
-                <p>ブロック崩し×戦闘
+                </details>
+                <a href="https://apps.apple.com/jp/app/%E3%82%BB%E3%83%83%E3%83%88%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-%E9%81%8B%E3%81%A8%E6%88%A6%E7%95%A5%E3%81%AE%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%A9-%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%AF/id6738885563" class="download-btn" target="_blank" rel="noopener noreferrer">App Storeでダウンロード</a>
+            </article>
 
-ボールを反射させてモンスターを倒そう。
+            <article class="game-card">
+                <div class="game-header">
+                    <img src="images/BallVSIcon.png" alt="ブロバト アイコン" class="game-icon">
+                    <div class="game-title-area">
+                        <span class="game-genre">ブロック崩し×戦闘</span>
+                        <h2>ブロバト</h2>
+                    </div>
+                </div>
+                <p class="game-catch">ボールを反射させてモンスターを倒そう！全国ランキング機能も搭載</p>
+                <details class="game-details">
+                    <summary>ゲームの詳細を見る</summary>
+                    <p class="game-description">ボールを反射させてモンスターを倒そう。
 またはスコアモードでランキング上位を目指そう。
 
 ボールを反射させてモンスターに攻撃し、ダメージを当てよう。プレイヤーのHPゲージにボールが当たるとプレイヤーのHPが減り、全てなくなるとゲームオーバーです。
 モンスターは様々な能力を持ち、また全24ステージ毎に異なるギミックが仕掛けられています。
 プレイヤーはボールの反射を利用して戦略的に攻撃を仕掛ける必要があります。
 スコアモードでは、ランキング機能を実装。全国のプレイヤーと競い合うことができます。</p>
-                <a href="https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%83%90%E3%83%88/id6505067081" class="download">App Storeでダウンロード</a>
-            </div>
-            
+                </details>
+                <a href="https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%83%90%E3%83%88/id6505067081" class="download-btn" target="_blank" rel="noopener noreferrer">App Storeでダウンロード</a>
+            </article>
+
         </section>
     </main>
     
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2025 すてくえ. All Rights Reserved.</p>
     </footer>
 </body>
